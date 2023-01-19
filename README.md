@@ -1,0 +1,1 @@
+# Deploy MariaDB with PhpMyAdmin with Docker Compose
