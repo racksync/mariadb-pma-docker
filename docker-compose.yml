@@ -1,6 +1,8 @@
-version: '3'
+version: '3.7'
 services:
+
   mariadb:
+    container_name: mariadb
     image: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
@@ -11,7 +13,9 @@ services:
       - ./data/mariadb:/var/lib/mysql
     networks:
       - mariadb-network
+
   phpmyadmin:
+    container_name: phpmyadmin
     image: phpmyadmin/phpmyadmin
     environment:
       #PMA_HOST: mariadb
