@@ -4,6 +4,7 @@ services:
     image: mariadb
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
+      TZ: "Asia/Bangkok"
     ports:
       - "3306:3306"
     volumes:
@@ -13,9 +14,13 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     environment:
-      PMA_HOST: mariadb
-      PMA_USER: root
-      PMA_PASSWORD: rootpassword
+      #PMA_HOST: mariadb
+      #PMA_USER: root
+      #PMA_PASSWORD: rootpassword
+      MYSQL_ROOT_PASSWORD: rootpassword
+      UPLOAD_LIMIT: 10240000
+      #PMA_ABSOLUTE_URI: https://db.domain.com
+      TZ: "Asia/Bangkok"
     ports:
       - "8080:80"
     links:
