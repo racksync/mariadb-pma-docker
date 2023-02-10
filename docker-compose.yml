@@ -13,6 +13,7 @@ services:
       - ./data/mariadb:/var/lib/mysql
     networks:
       - mariadb-network
+    restart: always
 
   phpmyadmin:
     container_name: phpmyadmin
@@ -31,5 +32,7 @@ services:
       - mariadb:db
     networks:
       - mariadb-network
+    restart: always
+    
 networks:
   mariadb-network:
