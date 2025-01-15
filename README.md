@@ -63,7 +63,7 @@ Once you have verified that the containers are running, you can adjust the conta
 
 RACKSYNC Co., Ltd. specializes in automation and smart solutions of all scales. We are experts in designing, implementing, and monitoring sophisticated automation systems. Our team of specialists provides comprehensive consulting services and technical implementation for both residential and commercial projects. Beyond automation, we offer full-cycle Software as a Service (SaaS) development, helping businesses transform their operations through custom digital solutions. With our deep expertise in IoT, home automation, and enterprise systems, we deliver reliable and innovative solutions tailored to each client's unique requirements.
 
-📍 RACKSYNC COMPANY LIMITED 
+📍 RACKSYNC COMPANY LIMITED  
 🌏 Suratthani, Thailand 84000  
 🌐 Website : [racksync.com](https://racksync.com)  
 📧 Email : devops@racksync.com  
